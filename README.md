@@ -7,6 +7,7 @@ Size constancy is a research application designed to assess the perception of di
 Studies have shown that people’s perception of space is distorted in virtual environments compared to the physical world. To perceive space, humans use different depth cues that can be classified as visual (binocular disparity, linear perspective, relative size, retinal blur, motion parallax) and oculomotor cues (accommodation, vergence). By analyzing the relationships between our actions and changes in these cues, the visual system develops the basis to perceive the space around us. Unfortunately, the harmony of these cues is disrupted in VR. For example, in HMDs, when looking at a virtual object, the eyes accommodate to the screen plane but converge based on the apparent location of the object, causing a conflict in the usual relationship between these cues. As a result, the perception of depth is distorted. This problem is known as the vergence-accommodation conflict. Reports describe sensations of depth compression, where distances are systematically underestimated.
 
 ![va](imgs/1.png)
+The vergence-accommodation mismatch issue
 
 ## Size-constancy Tests
 
@@ -14,9 +15,7 @@ Participants must estimate the relative size of a familiar object placed over a 
 
 ![test](imgs/2.png)
 
-Under natural conditions, no significant differences in size perception are expected between target distances. However, performance could differ in VR due to the amount of vergence-accommodation conflict induced by the display, which in turn may lead to an apparent shortening of the virtual table due to depth compression. The objective was to allow subjects to touch the physical object, get an overall sense of its dimensions, and use their own body as a reference to perform their estimates. Because proprioception is not influenced by the display, a conflict between the motor/efferent cues and the visual stimulus will be induced. We hypothesized that in the HMD, the perception of size (and distances) would be more negatively impacted than in the CAVE, due to the greater susceptibility of the HMD to induce depth compression.
-
-[![Watch the video](https://img.youtube.com/vi/p7Tpy1GYTuo/maxresdefault.jpg)](https://www.youtube.com/watch?v=p7Tpy1GYTuo)
+Under natural conditions, no significant differences in size perception are expected between target distances. However, performance could differ in VR due to the amount of vergence-accommodation conflict induced by the display, which in turn may lead to an apparent shortening of the virtual table due to depth compression. The objective was to allow subjects to touch the physical object, get an overall sense of its dimensions, and use their own body as a reference to perform their estimates. Because proprioception is not influenced by the display, a conflict between the motor/efferent cues and the visual stimulus will be induced. We hypothesize that their estimation of size and distances will be influenced by the vergence-accommodation mismatch issue, where the degree of understimation or overstimation will be proportional to the amount of conflict induced.
 
 ## Requirements
 
