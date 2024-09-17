@@ -2,12 +2,13 @@
 
 ![promo](imgs/0.png)
 
-Size constancy is a research application designed to assess the perception of distance and size in virtual reality. Size constancy is a perceptual phenomenon where an object is perceived to be the same size regardless of its distance and the visual angle subtended by the object on the retina. This phenomenon is shaped by experience, so when we approach or walk away from a familiar object, we do not perceive a change in its size, even though its retinal size becomes larger or smaller. This is a result of context, where cues like linear perspective and the relative size of surrounding objects influence the perceived distance of the object. Thus, it is possible to assess distance perception using the relative size of a familiar object as a reference.
+DistanceSizePerceptionTests is a research application designed to assess the perception of distance and size in virtual reality. Size constancy is a perceptual phenomenon where an object is perceived to be the same size regardless of its distance and the visual angle subtended by the object on the retina. This phenomenon is shaped by experience, so when we approach or walk away from a familiar object, we do not perceive a change in its size, even though its retinal size becomes larger or smaller. This is a result of context, where cues like linear perspective and the relative size of surrounding objects influence the perceived distance of the object. Thus, it is possible to assess distance perception using the relative size of a familiar object as a reference.
 
 Studies have shown that people’s perception of space is distorted in virtual environments compared to the physical world. To perceive space, humans use different depth cues that can be classified as visual (binocular disparity, linear perspective, relative size, retinal blur, motion parallax) and oculomotor cues (accommodation, vergence). By analyzing the relationships between our actions and changes in these cues, the visual system develops the basis to perceive the space around us. Unfortunately, the harmony of these cues is disrupted in VR. For example, in HMDs, when looking at a virtual object, the eyes accommodate to the screen plane but converge based on the apparent location of the object, causing a conflict in the usual relationship between these cues. As a result, the perception of depth is distorted. This problem is known as the vergence-accommodation conflict. Reports describe sensations of depth compression, where distances are systematically underestimated.
 
 ![va](imgs/1.png)
-The vergence-accommodation mismatch issue
+
+The vergence-accommodation conflict issue
 
 ## Size-constancy Tests
 
@@ -43,9 +44,9 @@ Under natural conditions, no significant differences in size perception are expe
 
 4. Before starting, we need to perform the calibration of the table and the reference object. Calibration means replicating their position and orientation in the virtual space. To do this, place the table and chair inside the tracking space of the base stations, ensuring that the entire table is visible to the base stations. Then, place the Vive Tracker at the center of the table.
 
-5. Press play in Unity to start the calibration process and put on your headset. You will see an empty environment, but don’t worry, this is normal. Then, press the trigger button on the Vive Controller. The virtual table will appear and be located at the same position as the tracker in the virtual environment. Don’t worry if the table looks misaligned at first glance.
-
 ![calibration1](imgs/4.png)
+
+5. Press play in Unity to start the calibration process and put on your headset. You will see an empty environment, but don’t worry, this is normal. Then, press the trigger button on the Vive Controller. The virtual table will appear and be located at the same position as the tracker in the virtual environment. Don’t worry if the table looks misaligned at first glance.
 
 6. Raise your headset to see the physical table and the Vive Tracker. Place the tracker at the center-left corner of the table and press the trigger. This action will orient the virtual table to match the physical table. Compare the result by raising/lowering the headset and touching the edges of the table with the Vive controllers. If the virtual table looks misaligned with the physical one, slightly move the physical table to match the position or orientation.
 
